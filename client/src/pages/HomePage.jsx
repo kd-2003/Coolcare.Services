@@ -34,7 +34,7 @@ function HomePage() {
               aria-label="Call CoolCare Services at +91 96530 42235"
               className="rounded-full border border-slate-200 bg-white px-6 py-3 text-slate-900 transition hover:border-primary hover:text-primary"
             >
-              Call Now +91 96530 42235
+              Call Now
             </a>
           </div>
           <div className="mt-10 grid gap-4 sm:grid-cols-3">
