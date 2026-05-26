@@ -36,6 +36,9 @@ function HomePage() {
             >
               Call Now
             </a>
+            <p className="text-sm text-slate-900 px-6 py-3 col-span-3 bg-slate-200 rounded-lg transition hover:border-primary hover:text-primary">
+              Technician Nilesh Prajapati
+            </p>
           </div>
           <div className="mt-10 grid gap-4 sm:grid-cols-3">
             <div className="rounded-3xl border border-slate-200 bg-white p-6 shadow-sm">
