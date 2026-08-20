@@ -37,26 +37,6 @@ function Navbar() {
             Gas Filling
           </NavLink>
         </nav>
-        <div className="flex items-center gap-3">
-          {user ? (
-            <>
-              <span className="hidden sm:inline text-sm text-slate-600">Hello, {user.name}</span>
-              <button
-                onClick={logout}
-                className="rounded-full bg-primary px-4 py-2 text-white text-sm hover:bg-secondary transition"
-              >
-                Logout
-              </button>
-            </>
-          ) : (
-            <Link
-              to="/login"
-              className="rounded-full border border-primary px-4 py-2 text-primary hover:bg-primary/10 transition text-sm"
-            >
-              Login
-            </Link>
-          )}
-        </div>
       </div>
     </header>
   );
