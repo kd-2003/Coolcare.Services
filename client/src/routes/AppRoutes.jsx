@@ -7,8 +7,8 @@ import ACRepair from '../pages/ACRepair';
 import ACInstallation from '../pages/ACInstallation';
 import GasFilling from '../pages/GasFilling';
 import BookingPage from '../pages/BookingPage';
-import Login from '../pages/Login';
-import Register from '../pages/Register';
+// import Login from '../pages/Login';
+// import Register from '../pages/Register';
 import TechnicianDashboard from '../pages/TechnicianDashboard';
 import AdminDashboard from '../pages/AdminDashboard';
 import NotFound from '../pages/NotFound';
@@ -25,8 +25,8 @@ function AppRoutes() {
         <Route path="ac-installation" element={<ACInstallation />} />
         <Route path="gas-filling" element={<GasFilling />} />
         <Route path="booking" element={<BookingPage />} />
-        <Route path="login" element={<Login />} />
-        <Route path="register" element={<Register />} />
+        {/* <Route path="login" element={<Login />} />
+        <Route path="register" element={<Register />} /> */}
         <Route path="technician-dashboard" element={<ProtectedRoute><TechnicianDashboard /></ProtectedRoute>} />
         <Route path="admin-dashboard" element={<ProtectedRoute adminOnly><AdminDashboard /></ProtectedRoute>} />
         <Route path="*" element={<NotFound />} />
